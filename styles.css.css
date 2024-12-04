@@ -1,0 +1,37 @@
+body {
+    color: white;
+    background: steelblue; 
+    margin: 0px;
+   font-family: "Sour Gummy", sans-serif;
+   margin-bottom: 100px;
+
+}
+
+header{
+    border-bottom: solid 2px steelblue;
+    padding: 7px;
+    font-size: 32px;
+    color: rgb(8, 32, 63);
+}
+
+section{
+    background: rgb(6 207 230);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+img{
+    height: 200px;
+}
+
+.categorias-vídeos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
